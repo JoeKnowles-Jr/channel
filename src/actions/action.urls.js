@@ -1,0 +1,9 @@
+// const ROOT_URL = 'https://api.joeknowles.com/channel' 
+const ROOT_URL = 'http://localhost:5000/channel' 
+export const authUrl = ROOT_URL
+export const userUrl = ROOT_URL + '/users'
+export const filesUrl = ROOT_URL + '/files'
+export const videosUrl = ROOT_URL + '/videos'
+export const linksUrl = ROOT_URL + '/links'
+export const commentsUrl = ROOT_URL + '/comments'
+export const playlistsUrl = ROOT_URL + '/playlists'
